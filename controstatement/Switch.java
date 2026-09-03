@@ -5,20 +5,13 @@ public class Switch {
 
         switch (day) {
 
-            case 1:
-                System.out.println("Monday");
-                break;
+            case 1 -> System.out.println("Monday");
 
-            case 2:
-                System.out.println("Tuesday");
-                break;
+            case 2 -> System.out.println("Tuesday");
 
-            case 3:
-                System.out.println("Wednesday");
-                break;
+            case 3 -> System.out.println("Wednesday");
 
-            default:
-                System.out.println("Invalid day");
+            default -> System.out.println("Invalid day");
         }
     }
 }
